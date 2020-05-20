@@ -117,13 +117,13 @@
                             <li class="nav-active">
                                 <a href="/admin/world">
                                     <i class="fa fa-globe" aria-hidden="true"></i>
-                                    <span>Әлемдік анализ</span>
+                                    <span>Әлемдік мониторинг</span>
                                 </a>
                             </li>
                             <li class="nav-active">
                                 <a href="/admin/kazakhstan">
                                     <i class="fa fa-flag" aria-hidden="true"></i>
-                                    <span>Қазақстан анализі</span>
+                                    <span>Қазақстан мониторингі</span>
                                 </a>
                             </li>
                         </ul>
