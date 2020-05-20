@@ -117,13 +117,13 @@
                             <li class="nav-active">
                                 <a href="/admin/world">
                                     <i class="fa fa-globe" aria-hidden="true"></i>
-                                    <span>Жер шары бойынша мониторинг</span>
+                                    <span>Жер шары мониторингі</span>
                                 </a>
                             </li>
                             <li class="nav-active">
                                 <a href="/admin/kazakhstan">
                                     <i class="fa fa-flag" aria-hidden="true"></i>
-                                    <span>Алматы облысы бойынша мониторинг</span>
+                                    <span>Алматы облысы мониторингі</span>
                                 </a>
                             </li>
                         </ul>
