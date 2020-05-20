@@ -29,7 +29,7 @@
 
                             <div class="card-body">
 
-                                <h2>Әлем бойынша жер сілкіністері мониторингі</h2>
+                                <h2>Әлем бойынша жер сілкіністер мониторингі</h2>
 
                                 <div class="embed-responsive embed-responsive-16by9">
                                     <iframe class="embed-responsive-item"
