@@ -6,35 +6,36 @@
     <meta charset="UTF-8">
 
     <title>Admin Panel</title>
-    <meta name="keywords" content="HTML5 Admin Template" />
+    <meta name="keywords" content="HTML5 Admin Template"/>
     <meta name="description" content="JSOFT Admin - Responsive HTML5 Template">
     <meta name="author" content="JSOFT.net">
 
     <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
     <!-- Web Fonts  -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light"
+          rel="stylesheet" type="text/css">
 
     <!-- Vendor CSS -->
-    <link rel="stylesheet" href="{{asset('assets/vendor/bootstrap/css/bootstrap.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/font-awesome/css/font-awesome.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/magnific-popup/magnific-popup.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/bootstrap-datepicker/css/datepicker3.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/vendor/bootstrap/css/bootstrap.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/font-awesome/css/font-awesome.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/magnific-popup/magnific-popup.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/bootstrap-datepicker/css/datepicker3.css')}}"/>
 
     <!-- Specific Page Vendor CSS -->
-    <link rel="stylesheet" href="{{asset('assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/bootstrap-multiselect/bootstrap-multiselect.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/morris/morris.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/select2/select2.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/jquery-datatables-bs3/assets/css/datatables.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/pnotify/pnotify.custom.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/bootstrap-multiselect/bootstrap-multiselect.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/morris/morris.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/select2/select2.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/jquery-datatables-bs3/assets/css/datatables.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/pnotify/pnotify.custom.css')}}"/>
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="{{asset('assets/stylesheets/theme.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/stylesheets/theme.css')}}"/>
 
     <!-- Skin CSS -->
-    <link rel="stylesheet" href="{{asset('assets/stylesheets/skins/default.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/stylesheets/skins/default.css')}}"/>
 
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="{{asset('assets/stylesheets/theme-custom.css')}}">
@@ -50,9 +51,10 @@
     <header class="header">
         <div class="logo-container">
             <a href="/admin/users" class="logo">
-                <img src="{{asset('assets/images/logo.png')}}" height="35" alt="JSOFT Admin" />
+                <img src="{{asset('assets/images/logo.png')}}" height="35" alt="JSOFT Admin"/>
             </a>
-            <div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
+            <div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html"
+                 data-fire-event="sidebar-left-opened">
                 <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
             </div>
         </div>
@@ -61,13 +63,13 @@
         <div class="header-right">
 
 
-
             <span class="separator"></span>
 
             <div id="userbox" class="userbox">
                 <a href="" data-toggle="dropdown">
                     <figure class="profile-picture">
-                        <img src="{{asset('assets/images/!logged-user.jpg')}}" alt="Joseph Doe" class="img-circle" data-lock-picture="assets/images/!logged-user.jpg" />
+                        <img src="{{asset('assets/images/!logged-user.jpg')}}" alt="Joseph Doe" class="img-circle"
+                             data-lock-picture="assets/images/!logged-user.jpg"/>
                     </figure>
                     <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@JSOFT.com">
                         <span class="name">{{auth()->user()->first_name}}</span>
@@ -105,7 +107,8 @@
                 <div class="sidebar-title">
                     Навигация
                 </div>
-                <div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+                <div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html"
+                     data-fire-event="sidebar-left-toggle">
                     <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
                 </div>
             </div>
@@ -120,16 +123,10 @@
                                     <span>Жер шары мониторингі</span>
                                 </a>
                             </li>
-                            <li class="nav-active">
-                                <a href="/admin/kazakhstan">
-                                    <i class="fa fa-flag" aria-hidden="true"></i>
-                                    <span>Алматы облысы мониторингі</span>
-                                </a>
-                            </li>
                         </ul>
                     </nav>
 
-                    <hr class="separator" />
+                    <hr class="separator"/>
 
                 </div>
 
