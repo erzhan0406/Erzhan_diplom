@@ -123,18 +123,18 @@
                                     <span>Жер шары мониторингі</span>
                                 </a>
                             </li>
-                            <li class="nav-active">
-                                <a href="{{route('earthquake.index')}}">
-                                    <i class="fa fa-globe" aria-hidden="true"></i>
-                                    <span>Жер сілкіністері</span>
-                                </a>
-                            </li>
-                            <li class="nav-active">
-                                <a href="{{route('all')}}">
-                                    <i class="fa fa-globe" aria-hidden="true"></i>
-                                    <span>Әлемдің мониторинг</span>
-                                </a>
-                            </li>
+                            {{--<li class="nav-active">--}}
+                                {{--<a href="{{route('earthquake.index')}}">--}}
+                                    {{--<i class="fa fa-globe" aria-hidden="true"></i>--}}
+                                    {{--<span>Жер сілкіністері</span>--}}
+                                {{--</a>--}}
+                            {{--</li>--}}
+                            {{--<li class="nav-active">--}}
+                                {{--<a href="{{route('all')}}">--}}
+                                    {{--<i class="fa fa-globe" aria-hidden="true"></i>--}}
+                                    {{--<span>Әлемдің мониторинг</span>--}}
+                                {{--</a>--}}
+                            {{--</li>--}}
                         </ul>
                     </nav>
 
