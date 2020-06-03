@@ -42,7 +42,7 @@
 
     <!-- Head Libs -->
     <script src="{{asset('assets/vendor/modernizr/modernizr.js')}}"></script>
-
+    @yield('styles')
 </head>
 <body>
 <section class="body">
@@ -123,6 +123,18 @@
                                     <span>Жер шары мониторингі</span>
                                 </a>
                             </li>
+                            <li class="nav-active">
+                                <a href="{{route('earthquake.index')}}">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>
+                                    <span>Жер сілкіністері</span>
+                                </a>
+                            </li>
+                            <li class="nav-active">
+                                <a href="{{route('all')}}">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>
+                                    <span>Әлемдің мониторинг</span>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
 
@@ -196,5 +208,6 @@
 <script src="{{asset('assets/javascripts/ui-elements/examples.lightbox.js')}}"></script>
 <script src="{{asset('assets/javascripts/ui-elements/examples.lightbox.js')}}"></script>
 <script src="{{asset('assets/javascripts/ui-elements/examples.notifications.js')}}"></script>
+@yield('scripts')
 </body>
 </html>

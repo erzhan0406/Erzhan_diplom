@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\EarthquakePoint;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -33,8 +34,10 @@ class HomeController extends Controller
     {
         return view('world');
     }
+
     public function kazakhstan()
     {
-        return view('kazakhstan');
+        $all = EarthquakePoint::all();
+        return view('all', compact('all'));
     }
 }

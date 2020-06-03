@@ -26,8 +26,12 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
 
     Route::get('/deals', ['as' => 'deals.index', 'uses' => 'DealsController@index']);
     Route::get('/world', ['as' => 'world', 'uses' => 'HomeController@worldAnalysis']);
-    Route::get('/kazakhstan', ['as' => 'kazakhstan', 'uses' => 'HomeController@kazakhstan']);
-
+    Route::get('/all', ['as' => 'all', 'uses' => 'HomeController@kazakhstan']);
+    Route::get('/earthquakes', ['as' => 'earthquake.index', 'uses' => 'EarthquakesController@index']);
+    Route::get('/earthquakes/create', ['as' => 'earthquake.create', 'uses' => 'EarthquakesController@create']);
+    Route::get('/earthquakes/{id}', ['as' => 'earthquake.update', 'uses' => 'EarthquakesController@update']);
+    Route::post('/earthquakes/{id}', ['as' => 'earthquake.edit', 'uses' => 'EarthquakesController@edit']);
+    Route::post('/earthquakes', ['as' => 'earthquake.store', 'uses' => 'EarthquakesController@store']);
 
 });
 
